@@ -1,17 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
 
-const topBar = (
-  <div>
-    <h1>Hello.</h1>
-    <h6>we've missed you</h6>
+const divStyle = {
+  height: '120px',
+  border: '5px solid orange'
+}
+
+const titleBar = (
+  <div id="titleBar">
+    <h1>Hello. Welcome to Delano Math Practice!</h1>
 </div>
 );
+
+const functionBar =(
+  <div id='border' style={divStyle}>
+  </div>
+)
+
 
 function App() {
   return (
     <div className="App">
-    {topBar}
+    {titleBar}
+    {functionBar}
       <header className="App-header">
       <img src={logo} className="App-logo" alt="logo" />
         <p>
