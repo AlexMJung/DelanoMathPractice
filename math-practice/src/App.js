@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import picture from './Cartoon_math_symbols.jpg'
 import './App.css';
 
 const divStyle = {
@@ -24,7 +24,7 @@ function App() {
     {titleBar}
     {functionBar}
       <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
+      <img src={picture} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
